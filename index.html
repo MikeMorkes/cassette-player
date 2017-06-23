@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>cassette player 80s</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class=""><!-- this div is used to force orientation to landscape - do not delete -->
+<div id="loading"><!-- this is needed to give the app time to ascertain the length of all the songs for calculating tape length for animations, as well as giving app time to preload machine noises and first song -->
+	<h4>LOADNG...PLEASE WAIT...</h4>
+	<p><em>Songs are for educational use only.</em></p>
+</div>
+ <div id="player-controls">
+  <button class="btn btn-default btn-cassette" type="submit" id="rewindBtn">REWIND</button><button class="btn btn-default btn-cassette" type="submit" id="playBtn">PLAY</button><button class="btn btn-default btn-cassette" type="submit" id="pauseBtn">PAUSE</button>
+  <button
+   class="btn btn-default btn-cassette" type="submit" id="fastForwardBtn">SKIP</button>
+ </div>
+
+ <div class="playerDoor">
+  <div class="title" id="title">
+   80s MIX
+  </div>
+  <div class="artist" id="artist">
+   &nbsp;
+  </div>
+ </div>
+
+ <div class="gearHolder">
+  <span class="helper"></span><img id="gear" class="play-gear" src="http://www.mikemorkes.com/codepen/cassette/spool-gear.svg" />
+ </div>
+<div class="spoolHolder">
+  <span class="helper"></span><img class="left-tape" id="leftTape" src="http://www.mikemorkes.com/codepen/cassette/tape-spool-left.svg" />
+ </div>
+
+ <div class="gearHolder2">
+  <span class="helper"></span><img id="gear2" class="play-gear" src="http://www.mikemorkes.com/codepen/cassette/spool-gear.svg" />
+ </div>
+	
+<div class="spoolHolder2">
+  <span class="helper"></span><img class="right-tape" id="rightTape" src="http://www.mikemorkes.com/codepen/cassette/tape-spool-right.svg" />
+ </div>
+
+
+ <!-- MUSIC -->
+
+ <audio id="sound1" preload="auto">
+    <source src="http://www.mikemorkes.com/codepen/cassette/music/take-on-me.mp3" type="audio/mp3" />
+	</audio>
+
+ <audio id="sound2" preload="metadata">
+    <source src="http://www.mikemorkes.com/codepen/cassette/music/heat-of-the-moment.mp3" type="audio/mp3" />
+	</audio>
+
+ <audio id="sound3" preload="metadata">
+    <source src="http://www.mikemorkes.com/codepen/cassette/music/dont-bring-me-down.mp3" type="audio/mp3" />
+	</audio>
+
+ <audio id="sound4" preload="metadata">
+    <source src="http://www.mikemorkes.com/codepen/cassette/music/bad-medicine.mp3" type="audio/mp3" />
+	</audio>
+
+ <audio id="sound5" preload="metadata">
+    <source src="http://www.mikemorkes.com/codepen/cassette/music/sweet-dreams-are-made.mp3" type="audio/mp3" />
+	</audio>
+
+ <audio id="sound6" preload="metadata">
+    <source src="http://www.mikemorkes.com/codepen/cassette/music/lift-me-up.mp3" type="audio/mp3" />
+	</audio>
+
+ <audio id="sound7" preload="metadata">
+    <source src="http://www.mikemorkes.com/codepen/cassette/music/youre-the-inspiration.mp3" type="audio/mp3" />
+	</audio>
+
+ <audio id="sound8" preload="metadata">
+    <source src="http://www.mikemorkes.com/codepen/cassette/music/cruel-summer.mp3" type="audio/mp3" />
+	</audio>
+	
+	
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://rawgit.com/wilq32/jqueryrotate/master/jQueryRotate.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
