@@ -45,10 +45,10 @@ var rotateAngle = [0,0]; // we'll need this later in the pause button for the ge
 
 // cassette player sounds
 var ffSound = new Audio(
-	"http://www.mikemorkes.com/codepen/cassette/fast-forward.mp3"
+	"../cassette-player/sounds/fast-forward.mp3"
 );
 var stopSound = new Audio(
-	"http://www.mikemorkes.com/codepen/cassette/buttonClunk.mp3"
+	"../cassette-player/sounds/buttonClunk.mp3"
 );
 
 
