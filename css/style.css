@@ -38,7 +38,7 @@ body {
   left: 0;
   width: 736px;
   height: 414px;
-  background: url("../cassette-player/img/cassette-art_v2.png") no-repeat;
+  background: url("../img/cassette-art_v2.png") no-repeat;
 }
 
 .title, .artist {
